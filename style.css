@@ -230,3 +230,16 @@ nav a:hover {
 .hero-stats p {
   color: #94a3b8;
 }
+
+.team-photo {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 16px;
+  margin-top: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+.team-photo:hover {
+  transform: scale(1.03);
+}
